@@ -1,17 +1,16 @@
 import { Component } from 'react';
 import { Route, Routes } from 'react-router-dom';
-import './home.css'
 
-class Home extends Component {
+class Content_Two extends Component {
 
 
     render() {
         return (
-            <div className='home'>
-                Home
+            <div>
+                Content 2?
             </div>
         );
     }
 }
 
-export default Home;
+export default Content_Two;
